@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
@@ -63,10 +61,10 @@ public class SimpleMoveUnityPhysics : MonoBehaviour
     private Vector2 _velocity;
     private float _timeLastOnGround;
 
-    public void SetVelocityAndGravity(Vector2 velocity)
+    public void SetVelocityAndGravity(Vector2 velocity, float gravity = 0)
     {
         _velocity = velocity;
-        _currentGravity = 0;
+        _currentGravity = gravity;
     }
 
     public Vector2 Velocity => _velocity;
@@ -162,9 +160,6 @@ public class SimpleMoveUnityPhysics : MonoBehaviour
             _groundNormal = Vector2.up;
             return;
         }
-
-
-        Debug.Log(hit.transform.name);
         
         _groundNormal = hit.normal;
     }

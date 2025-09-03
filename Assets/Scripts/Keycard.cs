@@ -8,6 +8,7 @@ public class Keycard : Singleton<Keycard>
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (IsCollected) return;
+        IsCollected = true;
         GetComponent<SpriteRenderer>().enabled = false;
     }
 }

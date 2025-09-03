@@ -30,8 +30,6 @@ public class SceneStartOnTouch : MonoBehaviour
     [SerializeField]
     private float _maskSpeed;
 
-    private bool _noMask = false;
-
 
 
     private void Awake()
