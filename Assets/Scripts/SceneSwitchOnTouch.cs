@@ -84,6 +84,6 @@ public class SceneSwitchOnTouch : MonoBehaviour
     {
         yield return new WaitForSeconds(_timeForAnim);
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
