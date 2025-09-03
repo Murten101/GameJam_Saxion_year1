@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1488193292762888280}
   - component: {fileID: 1641745115518513318}
-  - component: {fileID: 6503965071528286253}
   - component: {fileID: 3807021453684339819}
   - component: {fileID: 4064049907019021386}
+  - component: {fileID: 760976404572199297}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -90,43 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
---- !u!70 &6503965071528286253
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8933517751617219230}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
-  m_Direction: 0
 --- !u!50 &3807021453684339819
 Rigidbody2D:
   serializedVersion: 5
@@ -185,3 +148,36 @@ MonoBehaviour:
   _groundLayer:
     serializedVersion: 2
     m_Bits: 8
+--- !u!114 &760976404572199297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933517751617219230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f9e3819236f184eac9886148183ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _runningSprites:
+  - {fileID: -3829735031423821215, guid: c0fb0689befda8b4c98e29c6280f7b28, type: 3}
+  - {fileID: 3611258425211735533, guid: c0fb0689befda8b4c98e29c6280f7b28, type: 3}
+  - {fileID: -6317843172900290899, guid: c0fb0689befda8b4c98e29c6280f7b28, type: 3}
+  - {fileID: 287700517550279831, guid: c0fb0689befda8b4c98e29c6280f7b28, type: 3}
+  - {fileID: 7126892806569666597, guid: c0fb0689befda8b4c98e29c6280f7b28, type: 3}
+  - {fileID: 3925802937740227300, guid: c0fb0689befda8b4c98e29c6280f7b28, type: 3}
+  - {fileID: 4717729377799249616, guid: c0fb0689befda8b4c98e29c6280f7b28, type: 3}
+  - {fileID: -1444256872637535790, guid: c0fb0689befda8b4c98e29c6280f7b28, type: 3}
+  - {fileID: -3124526114541044780, guid: c0fb0689befda8b4c98e29c6280f7b28, type: 3}
+  _idleSprite:
+  - {fileID: -1516387744112839604, guid: df32be8bfaefc2046a48a22b4f3aedb8, type: 3}
+  - {fileID: -8026313669228311977, guid: df32be8bfaefc2046a48a22b4f3aedb8, type: 3}
+  - {fileID: -5917169234700195435, guid: df32be8bfaefc2046a48a22b4f3aedb8, type: 3}
+  - {fileID: -6691756239288349784, guid: df32be8bfaefc2046a48a22b4f3aedb8, type: 3}
+  - {fileID: 5466040871787345658, guid: df32be8bfaefc2046a48a22b4f3aedb8, type: 3}
+  - {fileID: -2645525763053587218, guid: df32be8bfaefc2046a48a22b4f3aedb8, type: 3}
+  - {fileID: -3332704181925085805, guid: df32be8bfaefc2046a48a22b4f3aedb8, type: 3}
+  - {fileID: 8353696384051136652, guid: df32be8bfaefc2046a48a22b4f3aedb8, type: 3}
+  - {fileID: -1587691395526419380, guid: df32be8bfaefc2046a48a22b4f3aedb8, type: 3}
+  _frameTimeInMS: 0
