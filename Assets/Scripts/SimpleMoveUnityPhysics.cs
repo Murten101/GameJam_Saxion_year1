@@ -60,6 +60,7 @@ public class SimpleMoveUnityPhysics : MonoBehaviour
     private float _currentGravity;
     private Vector2 _velocity;
     private float _timeLastOnGround;
+    private Transform _currentPlatform;
 
     public void SetVelocityAndGravity(Vector2 velocity, float gravity = 0)
     {
@@ -111,13 +112,28 @@ public class SimpleMoveUnityPhysics : MonoBehaviour
         }
 
         var origin = (Vector2)transform.position + _groundCheckOffset;
-        _grounded = EnvSensorUtils.Check(_groundCheckResolution, _groundCheckWidth, origin, Vector2.down, _groundLayer, _groundCheckRange, _maxGroundAngle);
+        var hit = EnvSensorUtils.Check2(_groundCheckResolution, _groundCheckWidth, origin, Vector2.down, _groundLayer, _groundCheckRange, _maxGroundAngle);
+        _grounded = hit.collider != null;
+
+        if (hit.collider.tag == "platform")
+        {
+            RegisterMovingPlatform(hit.transform);
+        }
 
         if (_grounded)
         {
             _timeLastOnGround = Time.time;
+        }else
+        {
+            UnregisterMovingPlatform();
         }
 
+    }
+
+    private void UnregisterMovingPlatform()
+    {
+        _currentPlatform = null;
+        transform.parent = null;
     }
 
     private void DoCeilingCheck()
@@ -151,9 +167,16 @@ public class SimpleMoveUnityPhysics : MonoBehaviour
         _velocity.y += _currentGravity;
     }
 
+    private void RegisterMovingPlatform(Transform platform)
+    {
+        _currentPlatform = platform;
+        transform.parent = platform;
+    }
+
     private void GetGroundNormal()
     {
         var hit = Physics2D.Raycast((Vector2)transform.position + _groundCheckOffset, Vector2.down, _groundNormalCheckRange, _groundLayer);
+
 
         if (!_grounded || hit.collider == null)
         {

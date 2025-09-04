@@ -11,6 +11,10 @@ public static class EnvSensorUtils
 
     public static bool Check(int resolution,float width, Vector2 position, Vector2 direction, LayerMask layerMask, float range = 0.2f, float maxAngleDifference = 45f)
     {
+        return Check2(resolution, width, position, direction, layerMask, range, maxAngleDifference).collider != null;
+    }
+        public static RaycastHit2D Check2(int resolution,float width, Vector2 position, Vector2 direction, LayerMask layerMask, float range = 0.2f, float maxAngleDifference = 45f)
+    {
         for (int i = 0; i < resolution; i++)
         {
             var rayOrigin = GetGroundCheckPos(position ,i , resolution, width);
@@ -29,8 +33,8 @@ public static class EnvSensorUtils
             }
 
             Debug.DrawRay(rayOrigin, direction * range, Color.green);
-            return true;
+            return hit;
         }
-        return false;
+        return default;
     }
 }
