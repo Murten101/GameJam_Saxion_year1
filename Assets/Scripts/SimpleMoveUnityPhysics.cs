@@ -115,10 +115,10 @@ public class SimpleMoveUnityPhysics : MonoBehaviour
         var hit = EnvSensorUtils.Check2(_groundCheckResolution, _groundCheckWidth, origin, Vector2.down, _groundLayer, _groundCheckRange, _maxGroundAngle);
         _grounded = hit.collider != null;
 
-        if (hit.collider.tag == "platform")
-        {
-            RegisterMovingPlatform(hit.transform);
-        }
+        //if (hit.collider.tag == "platform")
+        //{
+        //    RegisterMovingPlatform(hit.transform);
+        //}
 
         if (_grounded)
         {

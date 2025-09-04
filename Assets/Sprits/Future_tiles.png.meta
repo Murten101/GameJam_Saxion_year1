@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: e109434819c57b743807ae2721862ca2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9100552863384397741
+    second: Future_tiles_0
+  - first:
+      213: 6663371856700062240
+    second: Future_tiles_1
+  - first:
+      213: 674078372328567696
+    second: Future_tiles_2
+  - first:
+      213: 7201202576155275365
+    second: Future_tiles_3
+  - first:
+      213: -5509039257104089070
+    second: Future_tiles_4
+  - first:
+      213: -1199639518782857861
+    second: Future_tiles_5
+  - first:
+      213: 6221355040660643072
+    second: Future_tiles_6
+  - first:
+      213: -3303527929938456882
+    second: Future_tiles_7
+  - first:
+      213: 8620642154069558296
+    second: Future_tiles_8
+  - first:
+      213: 5786530936580161275
+    second: Future_tiles_9
+  - first:
+      213: 8734266133421353928
+    second: Future_tiles_10
+  - first:
+      213: 8455145055496842518
+    second: Future_tiles_11
+  - first:
+      213: -3097833869232765947
+    second: Future_tiles_12
+  - first:
+      213: 4605224138220482620
+    second: Future_tiles_13
+  - first:
+      213: -2729308220328953582
+    second: Future_tiles_14
+  - first:
+      213: -5033609184722385899
+    second: Future_tiles_15
+  - first:
+      213: 859822083490154841
+    second: Future_tiles_16
+  - first:
+      213: 7186837957323906188
+    second: Future_tiles_17
+  - first:
+      213: -5385955651667878772
+    second: Future_tiles_18
+  - first:
+      213: 7466217572112511084
+    second: Future_tiles_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Future_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 152
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7e0b9cc98ab4e70800000000000000
+      internalID: 9100552863384397741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 152
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a31fc466d097c50800000000000000
+      internalID: 6663371856700062240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 152
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093fa6d45beca5900800000000000000
+      internalID: 674078372328567696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 152
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560fc53e69fcfe360800000000000000
+      internalID: 7201202576155275365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 152
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21001aadbf5fb83b0800000000000000
+      internalID: -5509039257104089070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 105
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d5d60b6360a5fe0800000000000000
+      internalID: -1199639518782857861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 105
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00dd9248271b65650800000000000000
+      internalID: 6221355040660643072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 105
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ececf6eb9d28722d0800000000000000
+      internalID: -3303527929938456882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 105
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81403117d5ca2a770800000000000000
+      internalID: 8620642154069558296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 105
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe3bac7a33ed4050800000000000000
+      internalID: 5786530936580161275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 58
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbed40b5c8563970800000000000000
+      internalID: 8734266133421353928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 58
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d2a4571a5b65570800000000000000
+      internalID: 8455145055496842518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 58
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504053b42884205d0800000000000000
+      internalID: -3097833869232765947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 58
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30bfa544fa09ef30800000000000000
+      internalID: 4605224138220482620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 58
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2193db452ac8f1ad0800000000000000
+      internalID: -2729308220328953582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5148a7e9d17052ab0800000000000000
+      internalID: -5033609184722385899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 11
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959877021a3beeb00800000000000000
+      internalID: 859822083490154841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 11
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cd5907b07ccb360800000000000000
+      internalID: 7186837957323906188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 11
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c145eeedd3145b0800000000000000
+      internalID: -5385955651667878772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Future_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 6
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60bb89f2555d9760800000000000000
+      internalID: 7466217572112511084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a4b4a2831dd10f345b28c24354983343
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Future_tiles_0: 9100552863384397741
+      Future_tiles_1: 6663371856700062240
+      Future_tiles_10: 8734266133421353928
+      Future_tiles_11: 8455145055496842518
+      Future_tiles_12: -3097833869232765947
+      Future_tiles_13: 4605224138220482620
+      Future_tiles_14: -2729308220328953582
+      Future_tiles_15: -5033609184722385899
+      Future_tiles_16: 859822083490154841
+      Future_tiles_17: 7186837957323906188
+      Future_tiles_18: -5385955651667878772
+      Future_tiles_19: 7466217572112511084
+      Future_tiles_2: 674078372328567696
+      Future_tiles_3: 7201202576155275365
+      Future_tiles_4: -5509039257104089070
+      Future_tiles_5: -1199639518782857861
+      Future_tiles_6: 6221355040660643072
+      Future_tiles_7: -3303527929938456882
+      Future_tiles_8: 8620642154069558296
+      Future_tiles_9: 5786530936580161275
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

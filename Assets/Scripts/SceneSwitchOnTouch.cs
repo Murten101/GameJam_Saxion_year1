@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -41,7 +42,7 @@ public class SceneSwitchOnTouch : MonoBehaviour
         _player.GetComponent<Rigidbody2D>().simulated = false;
         _player.GetComponent<Collider2D>().enabled = false;
         //_player.GetComponent<PlayerAnimator>().enabled = false;
-
+    
         AnimatedExit();
     }
 
@@ -80,10 +81,15 @@ public class SceneSwitchOnTouch : MonoBehaviour
             _mask.transform.localScale -= new Vector3(_maskSpeed, _maskSpeed, _maskSpeed) * Time.deltaTime;
     }
 
+
     IEnumerator SwitchScene()
     {
         yield return new WaitForSeconds(_timeForAnim);
-
+        if (_isLastLevel)
+        {
+            Debug.Log("Exiting last level");
+            Application.Quit();
+        }
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

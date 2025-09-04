@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - warp
+  - platform
   layers:
   - Default
   - TransparentFX
